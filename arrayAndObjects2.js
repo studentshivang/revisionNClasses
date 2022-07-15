@@ -21,5 +21,5 @@ console.log(ages.filter((ele,index)=>{
 /*Important: The filter() method does not execute the function for empty elements. */
 var newarr = [1,2,,3,,-3,null,,0,,undefined,4,,4,,5,,6,,,,];
 
-newarr.filter(n => n)
+console.log(newarr.filter(n => n));
 // [1, 2, 3, -3, 4, 4, 5, 6]
