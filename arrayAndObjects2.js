@@ -18,4 +18,5 @@ console.log(ages.filter((ele,index)=>{
 (filled) with elements that pass a test provided by a function.*/
 //filter() method does not change the original array.
 
+/*Important: The filter() method does not execute the function for empty elements. */
 
