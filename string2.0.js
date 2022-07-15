@@ -34,11 +34,12 @@ console.log(strNew.search("hatred"));
 
 
 /*It seraches the string for a given regex */
-
-console.log('\n',strNew.search("Love"));
+console.log('\n');
+console.log(strNew.search("Love"));
 console.log(strNew.search(/Love/i));//case in-sensitive search
 
 
 //it can also search inside a word 
-console.log('\n',strNew.search(/ove/));
+console.log('\n');
+console.log(strNew.search(/ove/));
 console.log(strNew.search(/\bove\b/));//also searching for whole word "ove"
