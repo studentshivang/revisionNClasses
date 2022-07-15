@@ -39,6 +39,6 @@ console.log('\n',strNew.search("Love"));
 console.log(strNew.search(/Love/i));//case in-sensitive search
 
 
-//it search inside a word 
+//it can also search inside a word 
 console.log('\n',strNew.search(/ove/));
 console.log(strNew.search(/\bove\b/));//also searching for whole word "ove"
