@@ -1,0 +1,20 @@
+// functions are of two types
+// 1. User defined => Defined by user
+// 2. Pre defined => already defined in complier
+
+//ex 1=> setinterval function
+
+// setInterval("jo kam krana h","kitne time interval pr karana h")
+
+//function runs after every interval
+let i=0,j=0;
+setInterval(() => {
+    i++;
+    console.log("Hey there",i,j);
+  }, 2000);
+  
+  //function run once when time is out
+  setTimeout(() => {
+      j++;
+    console.log("Time out",i,j);
+  }, 2000);
